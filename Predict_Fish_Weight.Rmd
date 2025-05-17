@@ -1,6 +1,6 @@
 ---
 title: "Weight of Fish"
-author: "Caitlyn"
+author: "Caitlyn Hense"
 date: "`r Sys.Date()`"  
 output: 
   html_document:
@@ -50,6 +50,21 @@ Whitefish <- select(Whitefish, -Species)
 
 
 ## Perch
+
+```{r}
+library(leaps)
+regsubsets.out <-
+  regsubsets(Weight~ .,      
+                         data = Perch,
+                         nbest = 1,
+                         nvmax = NULL,
+                         force.in = NULL, force.out = NULL,
+                         method = "exhaustive")
+
+summary.out <-summary(regsubsets.out)
+as.data.frame(summary.out$outmat)
+```
+This shows that Height and Width is the best model. We can further test the models.
 
 ### Best Models
 
