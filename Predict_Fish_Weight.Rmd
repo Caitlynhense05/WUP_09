@@ -148,4 +148,4 @@ Best two regressor model are both the same, being model2= L3-W
 
 ## Final Summary Statements
 
-
+For Perch and Roach the best models and the best two regressive models are the same; The model 2 for both of them so there was no need to compare or use ANOVA to find p-value. On the other hand pike had a different best model; Corresponding to L1-L2-L3-H-W and for the best to regressive model is model 2; L1-L3. For instance, we ran ANOVA To determine the p-value which was 8.679e-10
