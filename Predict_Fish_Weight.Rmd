@@ -70,7 +70,8 @@ This shows that Height and Width is the best model. We can further test the best
 ### Best Models
 
 ```{r}
-which.max(summary.out$adjr2)
+library(car)
+
 ```
 
 With the max codeblock it tells us that 2 is the best model. It has the higher r-squard value.
