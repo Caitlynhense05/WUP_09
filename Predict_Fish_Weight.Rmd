@@ -64,7 +64,8 @@ regsubsets.out <-
 summary.out <-summary(regsubsets.out)
 as.data.frame(summary.out$outmat)
 ```
-This shows that Height and Width is the best model. We can further test the models.
+
+This shows that Height and Width is the best model. We can further test the best models.
 
 ### Best Models
 
