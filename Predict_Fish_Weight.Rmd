@@ -144,7 +144,7 @@ It seems the best model is model 2 where we can find L3 and W.
 
 ### Best Two regressor model
 
-
+Best two regressor model are both the same, being model2= L3-W
 
 ## Final Summary Statements
 
