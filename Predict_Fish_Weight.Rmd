@@ -135,12 +135,12 @@ as.data.frame(summary.out$outmat)
 
 ```{r}
 library(car)
-subsets(regsubsets.out,statistic="adjr2",legend=bottom,main="adjr2")
+subsets(regsubsets.out,statistic="adjr2",legend="bottom",main="adjr2")
 ```
 
 ### Best Models
 
-
+It seems the best model is model 2 where we can find L3 and W.
 
 ### Best Two regressor model
 
