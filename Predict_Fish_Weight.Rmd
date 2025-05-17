@@ -107,7 +107,7 @@ The best model is model5 corresponding to L-1,L-2,L-3,H-W
 
 ### Best Two regressor model
 
-
+The best two regressor model are model2; L-1,L-3
 
 ## Roach
 
