@@ -118,23 +118,6 @@ model2=lm(Weight~ . -Length2,Height,Width , data=Pike)
 anova(model5,model2)
 ```
 
-
-## Roach
-
-```{r}
-library(leaps)
-regsubsets.out <-
-  regsubsets(Weight~ .,      
-                         data = Roach,
-                         nbest = 1,
-                         nvmax = NULL,
-                         force.in = NULL, force.out = NULL,
-                         method = "exhaustive")
-
-summary.out <-summary(regsubsets.out)
-as.data.frame(summary.out$outmat)
-```
-
 ### Best Models
 
 
