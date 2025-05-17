@@ -82,14 +82,40 @@ The best two egressive model is also H and W
 
 ## Pike
 
+```{r}
+library(leaps)
+regsubsets.out <-
+  regsubsets(Weight~ .,      
+                         data = Pike,
+                         nbest = 1,
+                         nvmax = NULL,
+                         force.in = NULL, force.out = NULL,
+                         method = "exhaustive")
+
+summary.out <-summary(regsubsets.out)
+as.data.frame(summary.out$outmat)
+```
+
 ### Best Models
 
+
+
 ### Best Two regressor model
+
+
 
 ## Roach
 
+
+
 ### Best Models
+
+
 
 ### Best Two regressor model
 
+
+
 ## Final Summary Statements
+
+
