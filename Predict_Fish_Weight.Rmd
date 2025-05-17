@@ -73,6 +73,8 @@ This shows that Height and Width is the best model. We can further test the best
 which.max(summary.out$adjr2)
 ```
 
+With the max codeblock it tells us that 2 is the best model. It has the highers r-squard value.
+
 ### Best Two regressor model
 
 
