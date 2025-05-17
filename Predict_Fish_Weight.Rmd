@@ -78,6 +78,8 @@ The best model is the two element model, H and W models.
 
 ### Best Two regressor model
 
+The best two egressive model is also H and W 
+
 ## Pike
 
 ### Best Models
