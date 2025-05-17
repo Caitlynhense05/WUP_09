@@ -96,9 +96,14 @@ summary.out <-summary(regsubsets.out)
 as.data.frame(summary.out$outmat)
 ```
 
+```{r}
+library(car)
+subsets(regsubsets.out,statistic="adjr2",legend=bottom,main="adjr2")
+```
+
 ### Best Models
 
-
+The best model is model5 corresponding to L-1,L-2,L-3,H-W
 
 ### Best Two regressor model
 
